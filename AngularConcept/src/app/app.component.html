@@ -1,1 +1,10 @@
-<app-component-communication></app-component-communication>
+<h1>Lazy loading</h1>
+
+<div>
+  <ul>
+    <li *ngFor="let img of imageArr;let i=index">
+        {{i}}<img src="{{img}}" width="100%">
+    </li>
+  </ul>
+  
+</div>
